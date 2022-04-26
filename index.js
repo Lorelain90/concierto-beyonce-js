@@ -12,12 +12,15 @@ if(edad < 14) {
 }
 /*-----*/
 
-function Ticket (años) {
+function Ticket(años) {
     if(años < 14) {
         console.log ("Lo siento, eres demasiado joven, vuelve a intentarlo en unos años.")
-    } if (años >= 14 && años <= 17) {
+    }
+
+     if (años >= 14 && años <= 17) {
         console.log("Puedes entrar, pero sólo si te acompaña una persona mayor de edad.")
-    } if (años > 17) {
+    } 
+    if (años > 17) {
         console.log ("Adelante y disfruta.")
     }
 }
