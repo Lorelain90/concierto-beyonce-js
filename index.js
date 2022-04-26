@@ -1,13 +1,27 @@
 // Tu código va aquí: 
-let edad=16;
-if (edad < 14){
-    console.log(Lo siento, eres demasiado joven, vuelve a intentarlo en unos años.)
-}
-else if (edad >=14 && <=17){
-    console.log(Puedes entrar, pero sólo si te acompaña una persona mayor de edad.)
+
+function Ticket(años){
+
+    if (años < 14){
+        console.log("Lo siento, eres demasiado joven, vuelve a intentarlo en unos años.")
+    }
+
+    else if (años >= 14 && <= 17){
+        console.log("Puedes entrar, pero con un acompañante +18.")
+    }
+        
+    else (años =<18){
+        console.log("Adelante, y disfruta.")
+    }
+    
 }
 
-else if (edad 18=>){
-    console.log(Eres mayor de edad, puedes entrar.)
-}
 
+Ticket(0);
+Ticket(8);
+Ticket(12);
+Ticket(14);
+Ticket(17);
+Ticket(18);
+Ticket(35);
+Ticket(99);
